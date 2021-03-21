@@ -11,10 +11,10 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  */
 public class System implements SelfCheckCapable {
 
-	boolean Scan_Comms;
-	boolean Scan_Camera;
-	boolean Scan_Obstacle;
-	boolean Scan_Direction;
+	int Scan_Comms;
+	int Scan_Camera;
+	int Scan_Obstacle;
+	int Scan_Direction;
 	/**
 	 * This starts the communications scan true or false
 	 */
@@ -39,6 +39,7 @@ public class System implements SelfCheckCapable {
 	void Scan_Direction() {
 		
 	}
+
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
@@ -55,14 +56,6 @@ public class System implements SelfCheckCapable {
 	public boolean runSelfCheck() {
 		// TODO Auto-generated method stub
 		return false;
-	}
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 	}
 
 }
