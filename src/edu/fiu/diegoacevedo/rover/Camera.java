@@ -4,6 +4,7 @@
 package edu.fiu.diegoacevedo.rover;
 
 import edu.fiu.sysdesign.SelfCheckCapable;
+import edu.fiu.sysdesign.SelfCheckUtils;
 
 /**
  * @author diegoacevedo
