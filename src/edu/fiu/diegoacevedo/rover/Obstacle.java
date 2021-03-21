@@ -11,8 +11,8 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  */
 public class Obstacle implements SelfCheckCapable {
 
-	boolean Obstructed;
-	boolean Clear;
+	String Obstructed;
+	String Clear;
 	
 	/**
 	 * This starts the ultrasonic scan

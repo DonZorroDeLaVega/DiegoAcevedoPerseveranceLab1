@@ -10,7 +10,7 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  *
  */
 public class Comms implements SelfCheckCapable {
-	boolean Connect;
+	int Connect;
 	/**
 	 * This receives communications to Rover
 	 */

@@ -11,7 +11,7 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  */
 public class Rover implements SelfCheckCapable {
 
-	boolean Operational;
+	int Operational;
 	/**
 	 * This checks if Rover has power true or false
 	 */
