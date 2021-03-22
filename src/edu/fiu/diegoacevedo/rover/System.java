@@ -16,10 +16,11 @@ public class System implements SelfCheckCapable {
 	int Scan_Camera;
 	int Scan_Obstacle;
 	int Scan_Direction;
+	int Scan_Rover;
 	/**
 	 * This starts the communications scan true or false
 	 */
-	void Comms_Status() {
+	void Scan_Comms() {
 		
 	}
 	/**
@@ -40,23 +41,47 @@ public class System implements SelfCheckCapable {
 	void Scan_Direction() {
 		
 	}
+	/**
+	* This starts the Rover scan true or false
+	*/
+	void Scan_Rover() {
+		
+	}
 
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
-		return "Rover System";
+		return null;
+	
 	}
 
 	@Override
 	public boolean selfCheck() {
 		// TODO Auto-generated method stub
-		return SelfCheckUtils.randomCheck(0.25);
+		return false;
 	}
 
 	@Override
 	public boolean runSelfCheck() {
 		// TODO Auto-generated method stub
-		return SelfCheckUtils.basicSelfCheckRunner(this);
+		return false;	
+	}
+		
+		/**
+		 * @param args
+		 */
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			Camera myCamera = new Camera();
+			myCamera.runSelfCheck();
+			Comms myComms = new Comms();
+			myComms.runSelfCheck();
+			Direction myDirection = new Direction();
+			myDirection.runSelfCheck();
+			Obstacle myObstacle = new Obstacle();
+			myObstacle.runSelfCheck();
+			Rover myRover = new Rover();
+			myRover.runSelfCheck();
 	}
 
 }

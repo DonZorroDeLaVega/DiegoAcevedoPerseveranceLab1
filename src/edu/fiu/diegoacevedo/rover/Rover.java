@@ -4,6 +4,7 @@
 package edu.fiu.diegoacevedo.rover;
 
 import edu.fiu.sysdesign.SelfCheckCapable;
+import edu.fiu.sysdesign.SelfCheckUtils;
 
 /**
  * @author diegoacevedo
@@ -16,41 +17,27 @@ public class Rover implements SelfCheckCapable {
 	 * This checks if Rover has power true or false
 	 */
 	void Power() {
-		
+	
 	}
+	
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
-		return null;
+		return "Rover Unit";
+		
 	}
-
+	
 	@Override
 	public boolean selfCheck() {
 		// TODO Auto-generated method stub
-		return false;
+		return SelfCheckUtils.randomCheck(0.25);
 	}
 
 	@Override
 	public boolean runSelfCheck() {
 		// TODO Auto-generated method stub
-		return false;
-	}
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Camera myCamera = new Camera();
-		myCamera.runSelfCheck();
-		Comms myComms = new Comms();
-		myComms.runSelfCheck();
-		Direction myDirection = new Direction();
-		myDirection.runSelfCheck();
-		Obstacle myObstacle = new Obstacle();
-		myObstacle.runSelfCheck();
-		System mySystem = new System();
-		mySystem.runSelfCheck();
+		return SelfCheckUtils.basicSelfCheckRunner(this);
 	}
 
 }
+
