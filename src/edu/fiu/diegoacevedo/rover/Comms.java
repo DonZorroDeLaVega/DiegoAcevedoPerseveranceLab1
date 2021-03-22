@@ -11,6 +11,7 @@ import edu.fiu.sysdesign.SelfCheckUtils;
  *
  */
 public class Comms implements SelfCheckCapable {
+	
 	int Connect;
 	/**
 	 * This receives communications to Rover
