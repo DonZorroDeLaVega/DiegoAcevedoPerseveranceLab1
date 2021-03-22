@@ -14,6 +14,7 @@ public class Comms implements SelfCheckCapable {
 	/**
 	 * This receives communications to Rover
 	 */
+	
 	void Receive() {
 		
 	}
@@ -52,8 +53,8 @@ public class Comms implements SelfCheckCapable {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+				// TODO Auto-generated method stub
+		
 	}
 
 }
