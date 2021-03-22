@@ -17,6 +17,7 @@ public class System implements SelfCheckCapable {
 	int Scan_Obstacle;
 	int Scan_Direction;
 	int Scan_Rover;
+	
 	/**
 	 * This starts the communications scan true or false
 	 */
