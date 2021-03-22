@@ -41,7 +41,7 @@ public class Rover implements SelfCheckCapable {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 	}
 
 }

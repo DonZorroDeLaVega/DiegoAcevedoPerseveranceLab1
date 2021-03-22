@@ -10,7 +10,7 @@ import edu.fiu.sysdesign.SelfCheckCapable;
  *
  */
 public class Camera implements SelfCheckCapable {
-
+	
 	int On;
 	/**
 	 * This takes picture
