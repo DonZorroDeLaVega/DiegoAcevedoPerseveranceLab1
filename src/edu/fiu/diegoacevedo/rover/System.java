@@ -4,6 +4,7 @@
 package edu.fiu.diegoacevedo.rover;
 
 import edu.fiu.sysdesign.SelfCheckCapable;
+import edu.fiu.sysdesign.SelfCheckUtils;
 
 /**
  * @author diegoacevedo
@@ -43,19 +44,19 @@ public class System implements SelfCheckCapable {
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
-		return null;
+		return "Rover System";
 	}
 
 	@Override
 	public boolean selfCheck() {
 		// TODO Auto-generated method stub
-		return false;
+		return SelfCheckUtils.randomCheck(0.25);
 	}
 
 	@Override
 	public boolean runSelfCheck() {
 		// TODO Auto-generated method stub
-		return false;
+		return SelfCheckUtils.basicSelfCheckRunner(this);
 	}
 
 }

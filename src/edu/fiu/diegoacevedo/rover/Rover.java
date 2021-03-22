@@ -41,7 +41,16 @@ public class Rover implements SelfCheckCapable {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		Camera myCamera = new Camera();
+		myCamera.runSelfCheck();
+		Comms myComms = new Comms();
+		myComms.runSelfCheck();
+		Direction myDirection = new Direction();
+		myDirection.runSelfCheck();
+		Obstacle myObstacle = new Obstacle();
+		myObstacle.runSelfCheck();
+		System mySystem = new System();
+		mySystem.runSelfCheck();
 	}
 
 }
