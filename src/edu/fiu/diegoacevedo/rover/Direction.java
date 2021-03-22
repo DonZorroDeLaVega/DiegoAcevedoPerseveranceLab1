@@ -44,6 +44,7 @@ public class Direction implements SelfCheckCapable {
 	void Spin() {
 		
 	}
+	
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
