@@ -31,6 +31,7 @@ public class Camera implements SelfCheckCapable {
 	void Transmit() {
 		
 	}
+	
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
