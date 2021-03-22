@@ -15,7 +15,6 @@ public class Comms implements SelfCheckCapable {
 	/**
 	 * This receives communications to Rover
 	 */
-	
 	void Receive() {
 		
 	}
