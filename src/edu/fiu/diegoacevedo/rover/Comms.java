@@ -36,7 +36,7 @@ public class Comms implements SelfCheckCapable {
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
-		return "Rover Comms: Ready to Establish Communications";
+		return "Rover Comms: Ready to Receive, Transmit Communications and Take Actions";
 	}
 
 	@Override

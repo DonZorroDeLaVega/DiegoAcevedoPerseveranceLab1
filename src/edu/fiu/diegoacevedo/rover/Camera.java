@@ -36,7 +36,7 @@ public class Camera implements SelfCheckCapable {
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
-		return "Rover Camera: Ready to Take Video and Pictures";
+		return "Rover Camera: Ready to Take Video, Pictures and Transmit";
 	}
 
 	@Override
