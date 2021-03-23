@@ -31,7 +31,7 @@ public class Obstacle implements SelfCheckCapable {
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
-		return "Rover Obstacle";
+		return "Rover Obstacle: Ready to Scan for Obstacles";
 	}
 
 	@Override

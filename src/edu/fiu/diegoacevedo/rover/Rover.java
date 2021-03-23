@@ -24,7 +24,7 @@ public class Rover implements SelfCheckCapable {
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
-		return "Rover Unit";
+		return "Rover Unit: Is Operational";
 		
 	}
 	

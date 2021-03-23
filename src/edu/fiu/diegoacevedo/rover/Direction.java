@@ -48,7 +48,7 @@ public class Direction implements SelfCheckCapable {
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
-		return "Rover Direction";
+		return "Rover Direction: Ready to Move Forward, Backward, Left, Right and Spin";
 	}
 
 	@Override
